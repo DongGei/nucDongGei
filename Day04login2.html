@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>中北大学毕设管理系统—dzz</title>
+		<style>
+		body{
+				background-color: #1E9FFF;
+			}
+			#loginDiv{
+				background-color: white;
+				width: 550px;
+				height: 530px;
+				margin: 0 auto;
+				color:black;
+				margin-top: 160px;
+				text-align: center;
+				padding-top: 10px;
+				font-size: 20px;
+			}
+			#img001{
+				width: 300px;
+			}
+			.input{
+				width: 426px;
+				height: 55px;
+				border-radius: 5px;
+				border: 1px solid lightgray;
+				margin-left: -30px;
+				background-color: transparent;
+				padding-left: 30px;
+			}
+			#submitBtn{
+				border-radius: 5px;
+				background-color: #FF6B4D;
+				width: 446px;
+				height: 55px;
+			}
+			.qtdr{
+				width: 40px;
+				height: 40px;
+			}
+	</style>
+	</head>
+	<body>
+		<form action="checkuser.html" method="post">
+		<div  id="loginDiv">
+			<img id="img001" src="images/nuc.png" />
+			<h1>毕业设计管理系统</h1>
+			<img  src="images/user.png">
+			
+			<input  class="input" type="text" placeholder="请输入用户名" /><br />
+			<img  src="images/password.png">
+			
+			<input class="input" type="password" placeholder="请输入密码" /><br>
+			<input id="submitBtn" type="submit" value="登录" />
+			<br>
+			其他方式登录:
+			<a  href="https://www.qq.com/"><img class="qtdr" src="images/qq.png"></a>
+			<a  href="https://www.qq.com/"><img class="qtdr" src="images/weixin.png"></a>
+			<a  href="https://www.qq.com/"><img class="qtdr" src="images/weibo.png"></a>
+			
+			<div id="bottomDiv">
+				&copy;开发者：董子卓 中北大学 软件学院
+			</div>
+		</div>
+		</form>
+	</body>
+</html>
